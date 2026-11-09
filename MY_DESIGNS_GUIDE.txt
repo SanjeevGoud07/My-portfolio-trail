@@ -1,0 +1,84 @@
+MY DESIGNS GALLERY
+==================
+
+Add project folders and pictures
+--------------------------------
+1. Make one folder for each project inside public/designs/. Project folders
+   are supported directly under public/designs/, public/designs/projects/, or
+   public/designs/originals/.
+2. Put that project's image files inside its folder. For example:
+   public/designs/Album Cover/Final Exports/cover-front.png
+   public/designs/Album Cover/Final Exports/cover-back.png
+   public/designs/originals/Brand Identity/logo.jpg
+   Images in any nested subfolder of a project are included in that project's
+   popup.
+3. Supported formats: JPG, JPEG, JFIF, PNG, WebP, AVIF, TIF, and TIFF.
+   Use descriptive file names; they become the image labels.
+4. Update the project gallery by running this in the project folder:
+
+   npm run designs
+
+5. Refresh the site. Each non-empty project folder appears as a card in the
+   horizontal project carousel.
+
+On Windows PowerShell, you can run:
+
+   Set-Location "D:\React_Projects\Portfolio_series-main\Portfolio_series-main"
+   npm run designs
+
+Then start the site, if it is not already running:
+
+   npm run dev
+
+How it works
+------------
+- The project folder's name is shown on its project card. Click the card to
+  open a viewport-sized project window with that folder's images.
+- The project cards are in a horizontal carousel. Swipe or scroll sideways,
+  or use the arrow controls, to browse projects.
+- Project images keep their portrait or landscape proportions. Click an image
+  to open a full-size preview. The project window and preview are fixed to the
+  browser viewport, adapt to its available width and height, and remain usable
+  when the browser is zoomed. Scroll within the project window, use its up/down
+  buttons, or press Escape to close a window.
+- The heart button toggles a like saved in that browser's local storage.
+  Likes are not shared across viewers or devices.
+- The build script copies supported images without resizing them to
+  public/designs/assets/ and writes project and image details to
+  public/designs/manifest.json. TIFF files are converted to PNG at their
+  original dimensions because browsers do not display TIFF files directly.
+- The existing public/designs/originals/ folder is still shown as a project
+  named "My Designs". New images are best organized in named project folders.
+- The gallery is included in the site's section navigation and appears for
+  each viewing profile.
+
+Do I need to change any code?
+-----------------------------
+No. Create a named folder, copy images into it, and run "npm run designs".
+
+"npm run dev" and "npm run build" also run the image-generation script
+automatically before starting/building. If you add or remove images while the
+development server is already running, run "npm run designs" again and refresh
+the browser.
+
+To remove an image or project, delete the image or folder and run
+"npm run designs" again. The generated manifest and display copies are updated
+automatically. Do not edit the manifest manually.
+
+Copilot Free usage
+------------------
+The amount of Copilot usage remaining on your personal account is not visible
+to this project, so I cannot tell how much is left for you.
+
+GitHub's current plan documentation says Copilot Free includes 2,000 code
+completions per month and an allowance of GitHub AI Credits for AI features
+such as chat. The Free plan uses automatic model selection. GitHub does not
+give a fixed credit number for Free on the plan comparison page, and AI credit
+use varies with the feature and model. Allowances reset monthly.
+
+Check your account's current usage and allowance here:
+https://github.com/settings/billing/usage
+
+Official plan and usage details:
+https://docs.github.com/en/copilot/get-started/plans
+https://docs.github.com/en/copilot/concepts/billing-and-usage/individuals/billing

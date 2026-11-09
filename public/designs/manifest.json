@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": "37ac0efdcc3c",
+      "name": "Main",
+      "images": [
+        {
+          "alt": "Design 1",
+          "src": "/designs/assets/4f0cb304-5839-42dc-acc6-c5124789be5a-jpg-1323e6a728.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "alt": "Design 2",
+          "src": "/designs/assets/720-0ca4cb57c3.png",
+          "width": 720,
+          "height": 960
+        },
+        {
+          "alt": "Design 3",
+          "src": "/designs/assets/chatgpt-image-jul-23-2026-07-39-24-pm-b2d4bbf8a3.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "alt": "Design 4",
+          "src": "/designs/assets/chatgpt-image-jul-23-2026-11-13-11-pm-c24da3419c.png",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "fe8093eb19bf",
+      "name": "second",
+      "images": [
+        {
+          "alt": "Design 1",
+          "src": "/designs/assets/chatgpt-image-jun-22-2026-06-41-10-pm-607ff7f1aa.png",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "alt": "Design 2",
+          "src": "/designs/assets/chatgpt-image-jun-22-2026-08-43-50-pm-40b8fe024d.png",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "alt": "Design 3",
+          "src": "/designs/assets/chatgpt-image-jun-22-2026-08-52-12-pm-5228056563.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "alt": "Design 4",
+          "src": "/designs/assets/chatgpt-image-sep-17-2026-10-59-21-pm-e2208c71d5.png",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}
