@@ -450,16 +450,13 @@ export const seasons: Season[] = [
 export type TopPick = { label: string; title: string; detail: string; palette: Palette };
 
 export const topPicks: TopPick[] = [
-  { label: 'Primary language', title: 'Java', detail: 'Listed as primary on the resume • Oracle certified', palette: amber },
-  { label: 'The AI Original', title: 'PolicyGuard AI', detail: '500+ documents • 92% accuracy', palette: crimson },
-  { label: 'Biggest stage', title: 'Flipkart GRiD 7.0', detail: 'Semi-Finalist', palette: ocean },
-  { label: 'National selection', title: 'AlgoUniversity', detail: 'Tech Fellow', palette: violet },
-  { label: 'Academic high', title: 'Branch Topper', detail: '9.24 SGPA in AI & ML', palette: jade },
-  { label: 'Cloud credential', title: 'AWS AI Practitioner', detail: 'AWS Certified', palette: amber },
-  { label: 'Problems solved', title: '850+', detail: 'LeetCode 350+ • GFG 300+ • CodeChef 200+', palette: crimson },
-  { label: 'The training arc', title: '1 Year of FSD', detail: 'Technical Hub Pvt Ltd', palette: ocean },
-  { label: 'Database credential', title: 'MongoDB', detail: 'Certified Associate Developer', palette: jade },
-  { label: 'Current focus', title: 'System Design', detail: 'with Cloud (AWS) & Machine Learning', palette: violet },
+  { label: 'ROLE', title: 'Graphic Designer', detail: 'Creative expression & visual storytelling', palette: amber },
+  { label: 'PRIMARY SKILL', title: 'Adobe Photoshop', detail: 'Photo manipulation, retouching & editing', palette: crimson },
+  { label: 'Primary language', title: 'Python', detail: 'Programming & logical problem-solving', palette: ocean },
+  { label: 'INTEREST', title: 'Artificial Intelligence', detail: 'Exploring AI technologies & possibilities', palette: violet },
+  { label: 'CREATIVE INTEREST', title: 'AI Prompting', detail: 'Prompt engineering & AI-generated creativity', palette: jade },
+  { label: 'DATABASE SKILL', title: 'SQL', detail: 'Database queries & data management', palette: amber },
+  { label: 'CREATIVE TOOL', title: 'Premiere Pro', detail: 'Video Editing & visual storytelling', palette: crimson },
 ];
 
 /** Slides for the "▶ Play Intro" cinematic sequence. */
